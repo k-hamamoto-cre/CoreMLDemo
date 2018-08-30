@@ -11,7 +11,7 @@
       <h4>https://developer.apple.com/jp/machine-learning/build-run-models/</h4>
       
       ※2018/8/30現在、ページの下の方にDLコーナーあり
-      ※DLするモデルはどれでもOK
+      ※DLするモデルはどれでもOK(返却される結果や、結果を返すまでにかかる時間などが変わります)
       ※IBM Watsonのサービスから自前で作成してもOK
       
   <h3>(2)ローカルにクローンorDLしたプロジェクトをxcodeで開き、事前に取得したmlmodelファイルをプロジェクト上に追加する(プロジェクトナビゲータ上にD&Dする)</h3>
