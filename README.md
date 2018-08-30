@@ -1,6 +1,12 @@
 # CoreMLデモアプリケーション
 
 <h2>＜ビルド方法＞</h2>
+  <h3>(0)ビルド環境</h3>
+    <ul>
+  <li>Mac OS：10.13.5</li>
+  <li>Xcode：9.4.1</li>
+    </ul>
+  
   <h3>（1）以下のAppleのサイトから作成済みのmlmodelファイルをダウンロードする</h3>
       <h4>https://developer.apple.com/jp/machine-learning/build-run-models/</h4>
       
