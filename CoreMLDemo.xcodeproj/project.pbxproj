@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		541F6174212E4580007AD541 /* CoreMLUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541F6173212E4580007AD541 /* CoreMLUtility.swift */; };
 		5454BFF220F5CF56002E5CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454BFF120F5CF56002E5CD4 /* AppDelegate.swift */; };
-		5454BFF420F5CF56002E5CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454BFF320F5CF56002E5CD4 /* ViewController.swift */; };
+		5454BFF420F5CF56002E5CD4 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454BFF320F5CF56002E5CD4 /* TopViewController.swift */; };
 		5454BFF720F5CF56002E5CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5454BFF520F5CF56002E5CD4 /* Main.storyboard */; };
 		5454BFF920F5CF57002E5CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5454BFF820F5CF57002E5CD4 /* Assets.xcassets */; };
 		5454BFFC20F5CF57002E5CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5454BFFA20F5CF57002E5CD4 /* LaunchScreen.storyboard */; };
 		5475CE60210B05580048CB1C /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475CE5F210B05580048CB1C /* AVCaptureDevice+Extension.swift */; };
-		54D5A6EF2104B48200EC3873 /* ImageCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5A6EE2104B48200EC3873 /* ImageCaptureController.swift */; };
+		54D5A6EF2104B48200EC3873 /* RealTimeCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5A6EE2104B48200EC3873 /* RealTimeCaptureController.swift */; };
 		54D5A6F12104C6C000EC3873 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5A6F02104C6C000EC3873 /* VideoCapture.swift */; };
 		54D5A6F32104CCB800EC3873 /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5A6F22104CCB800EC3873 /* VideoCameraType.swift */; };
 /* End PBXBuildFile section */
@@ -23,13 +23,13 @@
 		541F6173212E4580007AD541 /* CoreMLUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLUtility.swift; sourceTree = "<group>"; };
 		5454BFEE20F5CF56002E5CD4 /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5454BFF120F5CF56002E5CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5454BFF320F5CF56002E5CD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5454BFF320F5CF56002E5CD4 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		5454BFF620F5CF56002E5CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5454BFF820F5CF57002E5CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5454BFFB20F5CF57002E5CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5454BFFD20F5CF57002E5CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5475CE5F210B05580048CB1C /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
-		54D5A6EE2104B48200EC3873 /* ImageCaptureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureController.swift; sourceTree = "<group>"; };
+		54D5A6EE2104B48200EC3873 /* RealTimeCaptureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeCaptureController.swift; sourceTree = "<group>"; };
 		54D5A6F02104C6C000EC3873 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		54D5A6F22104CCB800EC3873 /* VideoCameraType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,8 +56,8 @@
 		541F6176212E4953007AD541 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5454BFF320F5CF56002E5CD4 /* ViewController.swift */,
-				54D5A6EE2104B48200EC3873 /* ImageCaptureController.swift */,
+				5454BFF320F5CF56002E5CD4 /* TopViewController.swift */,
+				54D5A6EE2104B48200EC3873 /* RealTimeCaptureController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,12 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5454BFF420F5CF56002E5CD4 /* ViewController.swift in Sources */,
+				5454BFF420F5CF56002E5CD4 /* TopViewController.swift in Sources */,
 				541F6174212E4580007AD541 /* CoreMLUtility.swift in Sources */,
 				54D5A6F12104C6C000EC3873 /* VideoCapture.swift in Sources */,
 				54D5A6F32104CCB800EC3873 /* VideoCameraType.swift in Sources */,
 				5454BFF220F5CF56002E5CD4 /* AppDelegate.swift in Sources */,
-				54D5A6EF2104B48200EC3873 /* ImageCaptureController.swift in Sources */,
+				54D5A6EF2104B48200EC3873 /* RealTimeCaptureController.swift in Sources */,
 				5475CE60210B05580048CB1C /* AVCaptureDevice+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
